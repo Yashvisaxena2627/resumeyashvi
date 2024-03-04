@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 900px;
+    background-color: aliceblue;
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.2);
+}
+.container .left{
+    position: relative;
+    background: #167266;
+    padding: 40px;
+}
+.container .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(255,255,255,0.2);
+}
+.profiletext h2{
+    font-size: 1.5em;
+    color: black;
+    margin-top:20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.info{
+    padding:10px;
+    padding-top: 14px;
+}
+.title{
+    padding: 3px;
+    padding-bottom: 10px;
+}
+.info ul{
+    position: relative;
+}
+.info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px o;
+}
+.lang{
+    padding: 10px;
+}
+.lang ul li{
+  
+    list-style:none;
+}
+.edu h3{
+    padding: 10px;
+}
+.edu ul li{
+    list-style: none;
+    padding-left:10px;
+}
+.educat ul li{
+    list-style: none;
+   padding-left: 25px;
+   margin-top: 3px;
+}
+.head{
+    list-style: none;
+}
+.skills ul li{
+    list-style:none;
+    padding-left: 25px;
+}
+.pro ul li{
+    list-style: none;
+    padding-left:25px;
+}
+.hobby ul li{
+    list-style: none;
+    padding-left: 25px;
+}
